@@ -8,6 +8,10 @@
  */
 
 apply plugin: 'java'
+apply plugin: 'application'
+
+apply plugin: 'application'
+mainClassName = 'com.here.scbe.search.ScbeSolrSearchClient'
 
 repositories {
     jcenter()
