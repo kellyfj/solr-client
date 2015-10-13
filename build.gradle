@@ -15,8 +15,8 @@ repositories {
 
 dependencies {
     compile 'org.apache.solr:solr-solrj:5.3.1'
+    compile 'org.apache.commons:commons-math3:3.2'
 
-    //compile 'commons-logging:commons-logging:1.2'
     runtime 'org.slf4j:jcl-over-slf4j:1.7.7'
     //runtime 'org.slf4j:slf4j-simple:1.7.7'
 
