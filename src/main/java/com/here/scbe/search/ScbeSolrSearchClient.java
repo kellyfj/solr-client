@@ -62,7 +62,7 @@ public class ScbeSolrSearchClient {
       //long end2 = System.currentTimeMillis();
      // System.out.println("\t Time to commit " + (end2 - end1) + " msecs");
 
-      if(iter % 2 ==0 ) {
+      if(iter % 1 ==0 ) {
         StringBuilder sb = new StringBuilder();
 
 
